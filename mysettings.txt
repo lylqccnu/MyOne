@@ -1,0 +1,26 @@
+
+Scenario.name = ProphetRouter%%Group.nrofHosts
+Group.router = ProphetRouter
+
+# 仿真时间86400 = 24h
+Scenario.endTime = 86400
+# 节点数量 30,40,...100
+Group.nrofHosts = 100
+# 节点移动速度0.5-1.5,与默认相同
+# 通信范围200m
+btInterface.transmitRange = 200
+# 传输速率250KB/S ，与默认相同
+#消息大小/KB
+Events1.size = 100k,200k
+#缓存大小5MB,与默认相同
+#消息产生间隔/s
+Events1.interval = 10,30
+
+
+
+
+
+
+
+
+
